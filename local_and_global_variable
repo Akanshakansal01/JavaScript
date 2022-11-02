@@ -1,0 +1,16 @@
+function greet2(u)   // u is local variable
+ {
+    console.log(user);
+    return `HELLO ${u}!!`  
+ }
+ let user='Akansha';   // user is a global variable
+ let str1=greet2(user)
+ console.log(str1);
+
+
+ function add(num1,num2,num3=1)
+ {
+    return num1+num2+num3;
+ }
+ let res=add(5,7,9);
+ console.log(res)

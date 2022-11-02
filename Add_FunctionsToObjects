@@ -1,0 +1,9 @@
+// methods in javascript
+let laptop={
+    cpu:'i9', ram:16, brand:'hp',
+    greet:function()  // method
+    {
+        console.log('heeloooooooo');
+    }
+}
+laptop.greet();
